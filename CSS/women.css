@@ -2,6 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* css reset*/
+/*css grid*/
+.grid{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+/*css grids column width*/
+.grid-col-third {
+    flex-basis: 33.33%;
+}
+.grid-col-twoThirds {
+    flex-basis: 66.66%;
+}
 
 * { 
     padding : 0;
