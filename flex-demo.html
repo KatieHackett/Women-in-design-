@@ -9,6 +9,8 @@
             padding: 1rem;
             background-color: #cccccc;
             display:flex;
+            flex-direction: row;
+            gap: 24px;
         }
 
         p{
@@ -18,13 +20,19 @@
             color: #ffffff;
             border: 1px solid #000000;
         }
+        p.third{
+            flex-basis: 33.33%;
+        }
 
-    </style>
+        p.twoThrids{
+            flex-basis: 66.66%;
+        }
+            </style>
 </head>
 <body>
     <div class="grid">
-        <p>item one</p>
-        <p>item two</p>
+        <p class="third">item one</p>
+        <p class="twoThrids">item two</p>
 
     </div>
 </body>
